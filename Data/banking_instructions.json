@@ -1,0 +1,121 @@
+{
+    "Definitions": [
+        "You will be given some input text and you need to classify the intent of the text.",
+        "Given an input, classify the intent of the input text.",
+        "Select the correct intent of the given input text from a list of options."
+    ],
+    "Intent Descriptions": [
+        {
+            "intent": "beneficiary_not_allowed",
+            "description": "an intent related to restrictions or issues when trying to add or send money to a beneficiary."
+        },
+        {
+            "intent": "top_up_limits",
+            "description": "an intent related to inquiries regarding the maximum amount that can be added to an account within a certain timeframe."
+        },
+        {
+            "intent": "getting_spare_card",
+            "description": "an intent related to requests for obtaining an additional, secondary card linked to the same account."
+        },
+        {
+            "intent": "get_disposable_virtual_card",
+            "description": "an intent related to questions on how to acquire a one-time-use virtual card for secure online transactions."
+        },
+        {
+            "intent": "compromised_card",
+            "description": "an intent related to concerns related to a bank card that may have been lost, stolen, or subject to unauthorized use."
+        },
+        {
+            "intent": "card_payment_wrong_exchange_rate",
+            "description": "an intent related to issues where a card payment applied an incorrect exchange rate, affecting the transaction amount."
+        },
+        {
+            "intent": "top_up_reverted",
+            "description": "an intent related to situations where an attempted account top-up was reversed and the funds were not credited."
+        },
+        {
+            "intent": "atm_support",
+            "description": "an intent related to assistance with problems or questions related to using a bank card at ATMs."
+        },
+        {
+            "intent": "change_pin",
+            "description": "an intent related to procedures for changing the personal identification number (PIN) of a bank card."
+        },
+        {
+            "intent": "failed_transfer",
+            "description": "an intent related to issues related to unsuccessful attempts to transfer money from the account."
+        }
+    ],
+    "Positive Examples": [
+        {
+            "input": "How can I tell if someone else is using my card?",
+            "outputs": [
+                "compromised_card"
+            ],
+            "index": 3865
+        },
+        {
+            "input": "I need a refund. This is not what i wanted.",
+            "outputs": [
+                "request_refund"
+            ],
+            "index": 4691
+        },
+        {
+            "input": "Please tell me why I was charged additionally when I used the card.",
+            "outputs": [
+                "card_payment_fee_charged"
+            ],
+            "index": 2189
+        },
+        {
+            "input": "Is there any cost to change foreign money to local?",
+            "outputs": [
+                "exchange_charge"
+            ],
+            "index": 7712
+        },
+        {
+            "input": "How do you decide what the exchange rates are?",
+            "outputs": [
+                "exchange_rate"
+            ],
+            "index": 281
+        },
+        {
+            "input": "I made a payment but it's still pending",
+            "outputs": [
+                "pending_card_payment"
+            ],
+            "index": 4468
+        },
+        {
+            "input": "How much does it cost to get more cards?",
+            "outputs": [
+                "getting_spare_card"
+            ],
+            "index": 6737
+        },
+        {
+            "input": "I'm trying to make a bank transfer but It's not going through. Could there not be enough funds to transfer or something? Have I done it too many times?",
+            "outputs": [
+                "failed_transfer"
+            ],
+            "index": 6511
+        },
+        {
+            "input": "Is there a way to see my money's source?",
+            "outputs": [
+                "verify_source_of_funds"
+            ],
+            "index": 5644
+        },
+        {
+            "input": "what are the exchange rates for foreign currency ATMs",
+            "outputs": [
+                "wrong_exchange_rate_for_cash_withdrawal"
+            ],
+            "index": 7177
+        }
+    ]
+}
