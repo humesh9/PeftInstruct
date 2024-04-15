@@ -1,0 +1,121 @@
+{
+    "Definitions": [
+        "You will be given some input text and you need to classify the intent of the text.",
+        "Given an input, classify the intent of the input text.",
+        "Select the correct intent of the given input text from a list of options."
+    ],
+    "Intent Descriptions": [
+        {
+            "intent": "cancel_reservation",
+            "description": ""
+        },
+        {
+            "intent": "tell_joke",
+            "description": "an intent related to voicing a comment or phrase appealing to humor."
+        },
+        {
+            "intent": "carry_on",
+            "description": "an intent related to the extra baggage allowed on a flight."
+        },
+        {
+            "intent": "food_last",
+            "description": "an intent related to the expiration date of foods."
+        },
+        {
+            "intent": "insurance",
+            "description": "an intent related to particular components that concern insurance."
+        },
+        {
+            "intent": "what_are_your_hobbies",
+            "description": "an intent related to activites one performs outside of work."
+        },
+        {
+            "intent": "expiration_date",
+            "description": "an intent related to the expiration date."
+        },
+        {
+            "intent": "account_blocked",
+            "description": "an intent related to blocking of an account."
+        },
+        {
+            "intent": "meal_suggestion",
+            "description": "an intent related to questions regarding food choices."
+        },
+        {
+            "intent": "flight_status",
+            "description": "an intent related to the factors associated with a flight."
+        }
+    ],
+    "Positive Examples": [
+        {
+            "input": "should i get a travel visa for spain",
+            "outputs": [
+                "international_visa"
+            ],
+            "index": 11314
+        },
+        {
+            "input": "add all of my points for my current discover card",
+            "outputs": [
+                "rewards_balance"
+            ],
+            "index": 3695
+        },
+        {
+            "input": "i need a 401k rolled over to my brand new job",
+            "outputs": [
+                "rollover_401k"
+            ],
+            "index": 2865
+        },
+        {
+            "input": "what is the expiration date on my credit card",
+            "outputs": [
+                "expiration_date"
+            ],
+            "index": 13582
+        },
+        {
+            "input": "do i need to fill up my tires",
+            "outputs": [
+                "tire_pressure"
+            ],
+            "index": 5211
+        },
+        {
+            "input": "remove carrots from my shopping list and add soda",
+            "outputs": [
+                "shopping_list_update"
+            ],
+            "index": 2072
+        },
+        {
+            "input": "please set the timer for me",
+            "outputs": [
+                "timer"
+            ],
+            "index": 246
+        },
+        {
+            "input": "schedule me an uber to the mall",
+            "outputs": [
+                "uber"
+            ],
+            "index": 5780
+        },
+        {
+            "input": "i would like to make a pto request for july 17th and 18th",
+            "outputs": [
+                "pto_request"
+            ],
+            "index": 868
+        },
+        {
+            "input": "has my vacation request been approved",
+            "outputs": [
+                "pto_request_status"
+            ],
+            "index": 3954
+        }
+    ]
+}
